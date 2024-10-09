@@ -1,0 +1,39 @@
+body{
+font-family: aial,san sans-serif;
+text-align: center;
+
+}
+
+.Calculadora{
+    background-image: url(eee.avif);
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.fila-botones{
+    display: flex;
+}
+
+input[type = "button"]{
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+input[type="text"]{
+width: 240px;
+height: 40px;
+font-size: 18px;
+text-align: right;
+margin-bottom: 10px;
+
+}
+#igual{
+
+width: 250px;
+position: relative;
+top: 5px
+}
